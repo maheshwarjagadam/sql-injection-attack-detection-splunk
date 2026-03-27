@@ -26,7 +26,7 @@ The objective is to replicate a real-world Security Operations Center (SOC) scen
 * Kali Linux
 * IP Address: 192.168.20.11
 
-![Kali IP](screenshots/1_kali.png)
+![Kali IP](screenshots/1.png)
 
 ### Target Machine
 
@@ -34,7 +34,7 @@ The objective is to replicate a real-world Security Operations Center (SOC) scen
 * DVWA hosted using XAMPP (Apache + MySQL + PHP)
 * IP Address: 192.168.20.10
 
-![Windows IP](screenshots/2_windows.png)
+![Windows IP](screenshots/2.png)
 
 ### Network Verification
 
