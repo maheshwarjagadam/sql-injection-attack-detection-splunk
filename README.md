@@ -88,8 +88,6 @@ Key observations:
 
 Logs were ingested into Splunk for analysis.
 
-### Detecting sqlmap Activity
-
 index=endpoint "sqlmap"
 
 ![Access Logs](screenshots/15.png)
