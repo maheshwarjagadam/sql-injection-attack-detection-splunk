@@ -84,8 +84,6 @@ Key observations:
 
 ![SQL Injection Result](screenshots/14.png)
 
-
-
 ## Detection using Splunk
 
 Logs were ingested into Splunk for analysis.
