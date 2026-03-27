@@ -64,7 +64,7 @@ A basic SQL Injection payload was used to bypass authentication:
 
 This resulted in retrieval of multiple user records from the database.
 
-![SQL Injection Result](screenshots/14.png)
+![SQL Injection Result](screenshots/12.png)
 
 ### Automated Attack using sqlmap
 
