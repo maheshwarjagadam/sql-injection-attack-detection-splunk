@@ -94,7 +94,7 @@ index=endpoint "sqlmap"
 
 ![Access Logs](screenshots/15.png)
 
-![Splunk Events](screenshots/16.png)
+
 
 ### Identifying Attacker IP
 
@@ -111,6 +111,8 @@ Key finding:
 * IP 192.168.20.11 generated the majority of traffic
 
 ![Visualization](screenshots/19.png)
+
+![Splunk Events](screenshots/16.png)
 
 ## Key Findings
 
