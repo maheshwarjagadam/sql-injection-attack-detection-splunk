@@ -46,13 +46,13 @@ Connectivity between attacker and target verified using ICMP ping.
 
 DVWA (Damn Vulnerable Web Application) is used as the target application.
 
-![DVWA Dashboard](screenshots/11.png)
+![DVWA Dashboard](screenshots/13.png)
 
 ### Security Configuration
 
 DVWA security level is set to LOW to allow exploitation.
 
-![Security Level](screenshots/13.png)
+![Security Level](screenshots/11.png)
 
 ## Exploitation Phase
 
