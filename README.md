@@ -82,7 +82,7 @@ Key observations:
 * Encoded SQL payloads
 * High frequency of requests from attacker IP
 
-![SQL Injection Result](screenshots/12.png)
+![SQL Injection Result](screenshots/14.png)
 
 ![Access Logs](screenshots/15.png)
 
