@@ -1,7 +1,3 @@
-# sql-injection-attack-detection-splunk
-Simulated SQL Injection attack on DVWA and detected malicious activity using Splunk SIEM
-
-
 # SQL Injection Attack Detection using Splunk
 
 ## Overview
