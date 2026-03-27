@@ -84,7 +84,7 @@ Key observations:
 
 ![SQL Injection Result](screenshots/14.png)
 
-![Access Logs](screenshots/15.png)
+
 
 ## Detection using Splunk
 
@@ -93,6 +93,8 @@ Logs were ingested into Splunk for analysis.
 ### Detecting sqlmap Activity
 
 index=endpoint "sqlmap"
+
+![Access Logs](screenshots/15.png)
 
 ![Splunk Events](screenshots/16.png)
 
