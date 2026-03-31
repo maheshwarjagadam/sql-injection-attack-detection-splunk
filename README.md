@@ -80,6 +80,38 @@ Key observations:
 
 ![SQL Injection Result](screenshots/14.png)
 
+---
+
+## Manual SQL Injection using Burp Suite
+
+In addition to automated testing with sqlmap, manual exploitation was performed using Burp Suite to better understand how SQL injection works at the HTTP request level.
+
+The DVWA application was accessed through Burp Proxy, and HTTP requests were intercepted and modified in real time.
+
+### Payload Used
+
+1' OR '1'='1
+
+URL Encoded Version:
+
+1%27+OR+%271%27%3D%271
+
+### Observations
+
+* Authentication bypass was successfully achieved
+* The server returned multiple user records, confirming injection vulnerability
+* HTTP requests showed clear manipulation of query parameters (`id` field)
+
+### Key Insight
+
+Manual testing using Burp Suite provides deeper visibility into how payloads are constructed and how the application processes them, which is critical for understanding real-world attack behavior beyond automated tools like sqlmap.
+
+![Original Request](screenshots/burp_original_request.png)
+
+![SQL Injection Payload](screenshots/burp_sql_injection_payload.png)
+
+![Exploitation Result](screenshots/dvwa_sql_injection_result.png)
+
 ## Detection using Splunk
 
 Logs were ingested into Splunk for analysis.
@@ -138,6 +170,25 @@ It highlights the importance of:
 * Apache (XAMPP)
 * Splunk Enterprise
 * Windows 10
+
+---
+
+## Comparison: Manual vs Automated SQL Injection
+
+Manual (Burp Suite):
+
+* Precise control over payloads
+* Helps understand request-response behavior
+* Lower traffic, harder to detect
+
+Automated (sqlmap):
+
+* Generates large volume of requests
+* Faster database enumeration
+* Easier to detect due to repetitive patterns in logs
+
+This comparison highlights the importance of combining both approaches in real-world security testing and detection engineering.
+
 
 ## Future Improvements
 
